@@ -140,6 +140,7 @@ false representation of the data because we are imputing on small data.
 - Below is a snapshot of the execution time: 
 
 ⚪ For Title Similarity:
+
 ![3](time1.PNG)
 
 ⚪ For Nearest Neighbours:
