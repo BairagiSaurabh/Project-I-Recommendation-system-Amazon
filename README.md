@@ -1,7 +1,7 @@
 
 # Amazon Fashion Recommendation System
 
-Online shopping can save time for both the buyer and retailer, reducing phone calls about availability, specifications, hours of operation or other information easily found on company and product pages. There are a lot of reasons why customers today prefer shopping online: 
+Online shopping can save time for both the buyer and retailer by reducing phone calls about availability, specifications, hours of operation or other information that can be easily found on company and product pages. There are a lot of reasons why customers today prefer shopping online: 
 
 1) Convenience.
 2) Price comparisons.
@@ -66,7 +66,7 @@ Here, we only consider the features which help us in giving sensible recommendat
 ![1](funnel.PNG)
 ⚪PDF (price)
 
-These tools give us an idea about the distribution,structure of the data and frequency of categorical features.
+These tools give us an idea about the distribution,structure of the data and number of occurence of categorical values.
   
 ## Data Cleaning
 
@@ -121,8 +121,8 @@ false representation of the data because we are imputing on small data.
 
 ⚪ Model I (Recommendations through title similarity)
 
-- We vectorize the product titles by applying TFIDF
-- Define a function which returns cosine similarity value (0-1) for two such given vectors.
+- We vectorize the product titles by applying TFIDF.
+- Defined a function which returns cosine similarity value (0-1) for two such given vectors.
 - For a given title, we calculate cosine similarity with every other titles and select top 10 highest values and return their indexes.
 - These 10 indexes then help us to fetch 10 recommendations that we need to make.
 - We display the result by defining  a function which shows images when a URL is given as input to it.
@@ -136,8 +136,8 @@ false representation of the data because we are imputing on small data.
 
 ## Results
 
-- Although we get approximately similar recommendations by both the Models I & II, the execution time for Model I is much more than Model II.
-- Below is snapshot of the execution time: 
+- Although we get approximately similar recommendations by both the Models I & II, the execution time for Model II is much less than Model I.
+- Below is a snapshot of the execution time: 
 
 ⚪ For Title Similarity:
 ![3](time1.PNG)
