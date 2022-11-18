@@ -37,7 +37,7 @@ Find more details about the model in Models section below :)
 
 ## Demo
 
-- [Click here to see Demo](https://fashion-recommendation-full.herokuapp.com/)
+- [Click here to see Demo](https://bairagisaurabh-project-i-recommendation-system-amazo-app-emd83f.streamlit.app/)
 
 
 
